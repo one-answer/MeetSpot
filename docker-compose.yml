@@ -6,6 +6,6 @@ services:
     network_mode: "host"
     environment:
       # 或者直接引用宿主机变量：
-      - api_key # 会引用宿主机当前的 api_key
+      - AMAP_API_KEY # 会引用宿主机当前的 api_key
     volumes:
       - /root/meetspot/logs:/root/meetspot/logs
