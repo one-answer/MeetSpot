@@ -28,7 +28,7 @@ RUN chown -R meetspot:meetspot /app
 USER meetspot
 
 # 暴露端口
-EXPOSE 8000
+EXPOSE 11024
 
 # 健康检查
 HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
