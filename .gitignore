@@ -122,7 +122,6 @@ YAML_FIX_REPORT.md
 # Docker和其他部署配置
 Dockerfile
 docker-compose.yml
-deploy.sh
 deploy.bat
 verify_project.sh
 
