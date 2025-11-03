@@ -1,6 +1,6 @@
 import os
 import threading
-import tomllib
+import tomli as tomllib
 from pathlib import Path
 from typing import Optional
 

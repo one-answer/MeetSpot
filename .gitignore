@@ -141,3 +141,6 @@ openmanus.egg-info/
 
 # 测试目录
 tests/
+
+# config
+config/config.toml
