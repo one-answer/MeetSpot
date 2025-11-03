@@ -23,7 +23,7 @@ def main():
         import uvicorn
         
         # Get port from environment variable (Railway sets PORT automatically)
-        port = int(os.environ.get("PORT", 8000))
+        port = int(os.environ.get("PORT", 11024))
         
         # Detect if running in production (Railway sets RAILWAY_ENVIRONMENT)
         is_production = os.environ.get("RAILWAY_ENVIRONMENT") is not None
