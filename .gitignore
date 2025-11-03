@@ -120,8 +120,6 @@ STAGE1_COMPLETION_REPORT.md
 YAML_FIX_REPORT.md
 
 # Docker和其他部署配置
-Dockerfile
-docker-compose.yml
 deploy.bat
 verify_project.sh
 

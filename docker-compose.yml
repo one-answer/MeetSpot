@@ -1,0 +1,8 @@
+version: '3'
+services:
+  webapp:
+    image: aolifu/meetspot:v1
+    container_name: meetspot
+    network_mode: "host"
+    volumes:
+      - /root/meetspot/logs:/root/meetspot/logs
